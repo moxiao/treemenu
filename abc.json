@@ -1,0 +1,14 @@
+{
+    "name": "treemenu",
+    "version": "1.0",
+    "desc": "多级树形菜单组件",
+    "cover": "",
+    "tag":"菜单",
+    "author": {
+        "name": "moxiao",
+        "email": "moxiao.hd@taobao.com",
+        "page": "https://github.com/moxiao"
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
