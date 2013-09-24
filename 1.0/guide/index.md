@@ -44,7 +44,7 @@ treemenu是自适应多级树形菜单。
 ## API说明
 
 * render()
-    渲染整棵树，树的状态保存在传入menu对象的节点中，如果动态修改树或者操作树，请改变menu对象的属性，reload+render。
+		渲染整棵树，树的状态保存在传入menu对象的节点中，如果动态修改树或者操作树，请改变menu对象的属性，reload+render。
 
 * reload(menu)
         重新渲染整棵树。通常和render连用。如果要动态修改树形，可以修改menu对象，再重新reload+render。
