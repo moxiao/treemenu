@@ -60,7 +60,7 @@ treemenu是自适应多级树形菜单。
 
 ### 事件fold
     分支节点收缩触发，event返回entity。
-        entity包含属性：title - 标题，
+    entity包含属性：title - 标题，
                     value - value值，
                     tip - tip值
                     index - 每个节点的唯一编号，
