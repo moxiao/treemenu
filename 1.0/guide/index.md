@@ -46,38 +46,38 @@ treemenu是自适应多级树形菜单。
 ### render()
     渲染整棵树，树的状态保存在传入menu对象的节点中，如果动态修改树或者操作树，请改变menu对象的属性，reload+render。
 
-* reload(menu)
-        重新渲染整棵树。通常和render连用。如果要动态修改树形，可以修改menu对象，再重新reload+render。
+### reload(menu)
+    重新渲染整棵树。通常和render连用。如果要动态修改树形，可以修改menu对象，再重新reload+render。
 
-* unfoldAll()
-        展开所有分支节点。
+### unfoldAll()
+    展开所有分支节点。
 
-* foldAll()
-        收缩所有分支节点。
+### foldAll()
+    收缩所有分支节点。
 
-* resetAll()
-        重置树的结构为最近一次render的状态。
+### resetAll()
+    重置树的结构为最近一次render的状态。
 
-* 事件fold
-        分支节点收缩触发，event返回entity。
+### 事件fold
+    分支节点收缩触发，event返回entity。
         entity包含属性：title - 标题，
-                        value - value值，
-                        tip - tip值
-                        index - 每个节点的唯一编号，
-                        level - 节点坐在层级，从0开始，
-                        isLeaf - 是否是叶节点，
-                        unfold - 展开状态，分支节点有效，
-                        selected - 选中状态，叶节点有效
+                    value - value值，
+                    tip - tip值
+                    index - 每个节点的唯一编号，
+                    level - 节点坐在层级，从0开始，
+                    isLeaf - 是否是叶节点，
+                    unfold - 展开状态，分支节点有效，
+                    selected - 选中状态，叶节点有效
 
-* 事件unfold
-        分支节点展开触发，event返回entity。
+### 事件unfold
+    分支节点展开触发，event返回entity。
 
-* 事件select
-        叶节点被选中触发，event返回entity。
+### 事件select
+    叶节点被选中触发，event返回entity。
 
-* 事件mouseover
-        节点mouseover触发，event返回entity。
+### 事件mouseover
+    节点mouseover触发，event返回entity。
   
-* 事件mouseout
-        节点mouseover触发，event返回entity。
+### 事件mouseout
+    节点mouseover触发，event返回entity。
   
