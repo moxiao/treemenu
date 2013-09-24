@@ -146,6 +146,7 @@ KISSY.add(function (S, Node, Base, Event, Anim) {
 			menuObj.index = this.allMenuObj.length;
 			menuObj.isLeaf = typeof menuObj.subMenu == 'undefined';
 			menuObj.unfold = typeof menuObj.unfold == 'undefined' ? false : menuObj.unfold;
+			menuObj.selected = typeof menuObj.selected == 'undefined' ? false : menuObj.selected;
 			
 			var html = [];
 			var i  = 0, currIdx = this.allMenuObj.length;
@@ -239,7 +240,7 @@ KISSY.add(function (S, Node, Base, Event, Anim) {
 	});
 
     return Treemenu;
-}, {requires:['node', 'base', 'event', 'anim', './index.css']});
+}, {requires:['node', 'base', 'event', 'anim']});
 
 
 
